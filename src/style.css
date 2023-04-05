@@ -1,0 +1,37 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: ivory;
+}
+.alert{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+}
+.alert {
+    padding: 20px;
+    background-color: #ffaa46;
+    color: white;
+    margin-bottom: 15px;
+    transition: 0.6s ease;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.closebtn:hover {
+    color: black;
+}
